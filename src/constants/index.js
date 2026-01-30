@@ -101,28 +101,29 @@ const blogPosts = [
 
 const techStack = [
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    category: "Languages",
+    items: ["React.js", "Next.js", "TypeScript", "JavaScript",  "Python"],
   },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
-  },
+  
   {
     category: "Styling",
     items: ["Tailwind CSS", "Sass", "CSS"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    category: "Backend and APIs",
+    items: ["Node.js", "Express", "FastAPI", "Microservices" ],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL",  "MySQL", "Vector Databases"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "AWS", "Kubernetes"],
+  },
+  {
+    category: "AI/ML",
+    items: [  "Pandas", "NumPy", "TensorFlow", "PyTorch", "LangChain", "RAG"],
   },
 ];
 
