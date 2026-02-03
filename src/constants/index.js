@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "Certifications", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -79,23 +79,23 @@ const blogPosts = [
     id: 1,
     date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "IBM AI Engineering Professional Certificate",
+    image: "/images/IBM.png",
+    link: "https://www.credly.com/badges/541682d3-6c1c-4cc8-a115-80e6ebda202b/linked_in_profile",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    title: "Azure AI Fundamentals Certification",
+    image: "/images/Microsoft Fundamentals.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/GalaxyMatrix-7207/BF6EF7AE6F8E8F5B?sharingId",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    title: "AWS Certified Cloud Practitioner",
+    image: "/images/AWS.png",
+    link: "https://www.credly.com/badges/4d06068c-7a49-4cc1-be36-db6aec5858a4/linked_in_profile",
   },
 ];
 
