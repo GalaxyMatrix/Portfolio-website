@@ -133,28 +133,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/GalaxyMatrix",
   },
   {
     id: 2,
-    text: "Platform",
+    text: "Gmail",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://mail.google.com/mail/?view=cm&to=coranchunilall7@gmail.com&su=Hello&body=Hi%20there",
   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/Coran_Matrix",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "mailto:coranchunilall7@gmail.com",
   },
 ];
 
@@ -446,7 +446,7 @@ const RESUME_LOCATION = {
   children: [
     {
       id: 1,
-      name: "Resume.pdf",
+      name: "Coran Chunilall CV - Resume.pdf",
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
