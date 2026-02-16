@@ -426,12 +426,14 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/Coran.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        `Hey! I’m Coran 👋, Aspiring AI Engineer with a solid foundation in machine learning, deep learning, and cloud-based AI systems. Skilled in
+          building intelligent applications using Python, FastAPI, LangGraph, and modern ML techniques, with hands-on experience
+          developing RAG systems, research agents, and scalable backend services. Backed by certifications in IBM AI Engineering,
+          Azure AI Fundamentals, and AWS Cloud, I’m driven to design reliable, high-impact AI solutions that enhance automation,
+          decision-making, and real-world performance. Passionate about continuous learning, experimentation, and pushing the
+          boundaries of applied AI.`,
       ],
     },
   ],
