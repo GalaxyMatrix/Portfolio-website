@@ -25,4 +25,3 @@ A macOS-inspired interactive portfolio website built with React and Vite. Featur
 - **Animations:** GSAP
 - **PDF Viewer:** react-pdf
 
-```
