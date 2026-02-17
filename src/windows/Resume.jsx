@@ -5,7 +5,9 @@ import { Document, Page, pdfjs } from 'react-pdf';
 
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
-pdfjs.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js';
+
+// Fix: Use backticks for template literal
+pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const Resume = () => {
   return (
@@ -14,12 +16,14 @@ const Resume = () => {
         <WindowControls target="resume" />
         <h2>Resume.pdf</h2>
 
-        <a href="files/Coran Chunilall CV - Resume.pdf" download className="cursor-pointer" title="Download resume">
+        {/* Fix: Add leading slash for public folder path */}
+        <a href="/files/Coran Chunilall CV - Resume.pdf" download className="cursor-pointer" title="Download resume">
             <Download className="icon" />
         </a>
 
     </div>
-     <Document file="files/Coran Chunilall CV - Resume.pdf" >
+     {/* Fix: Add leading slash for public folder path */}
+     <Document file="/files/Coran Chunilall CV - Resume.pdf">
         <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
       </Document>
 
