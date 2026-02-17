@@ -6,8 +6,11 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 
-// Fix: Use backticks for template literal
-pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+// Bundle the worker locally - no CORS issues
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.mjs',
+  import.meta.url
+).toString();
 
 const Resume = () => {
   return (
@@ -16,15 +19,13 @@ const Resume = () => {
         <WindowControls target="resume" />
         <h2>Resume.pdf</h2>
 
-        {/* Fix: Add leading slash for public folder path */}
         <a href="/files/Coran Chunilall CV - Resume.pdf" download className="cursor-pointer" title="Download resume">
             <Download className="icon" />
         </a>
 
     </div>
-     {/* Fix: Add leading slash for public folder path */}
      <Document file="/files/Coran Chunilall CV - Resume.pdf">
-        <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
+        <Page pageNumber={1} renderTextLayer={true} renderAnnotationLayer={true} />
       </Document>
 
     </>
