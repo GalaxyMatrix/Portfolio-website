@@ -154,7 +154,7 @@ const socials = [
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "mailto:coranchunilall7@gmail.com",
+    link: "https://www.linkedin.com/in/coranchunilall/",
   },
 ];
 
@@ -396,7 +396,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/Coran.jpg",
     },
     {
       id: 2,
@@ -405,7 +405,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/Coran2.jpg",
     },
     {
       id: 3,
@@ -414,7 +414,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/Coran3.jpeg",
     },
     {
       id: 4,
