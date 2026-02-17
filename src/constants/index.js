@@ -227,43 +227,40 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "DocuMind AI - RAG Document Assistant",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-5", // optional: Finder window position
+      windowPosition: "top-[15vh] left-5", // optional: Finder window position
       children: [
-        {
-          id: 1,
-          name: "Nike Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-          ],
-        },
+{
+  id: 1,
+  name: "DocuMind AI - RAG Document Assistant Project.txt",
+  icon: "/images/txt.png",
+  kind: "file",
+  fileType: "txt",
+  position: "top-5 left-10",  
+  description: [
+    "📄 PDF Document Upload - Upload and process PDF files into searchable embeddings\n🤖 AI-Powered Q&A - Ask questions and get instant answers from your documents\n🎨 Beautiful UI - Modern gradient design with smooth animations\n☁️ Cloud Deployed - Fully hosted on Render and Streamlit Cloud\n🗑️ Database Management - Clear all documents with one click\n📚 Source Attribution - See which documents your answers came from\n⚡ Instant Responses - Direct synchronous query processing"
+  ],
+},
         {
           id: 2,
-          name: "nike.com",
+          name: "DocuMind AI - RAG Document Assistant",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/GalaxyMatrix/RAG-Application?tab=readme-ov-file",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "DocuMind.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/DocuMind.png",
         },
         {
           id: 5,
@@ -280,7 +277,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "AI Research Agent - Multi-Source Intelligence Platform",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -288,35 +285,36 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "AI Research Agent - Multi-Source Intelligence Platform.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "The AI Research Agent is a sophisticated multi-source intelligence platform that revolutionizes how users gather and analyze information. By leveraging cutting-edge AI technologies and parallel processing workflows, it delivers comprehensive research insights in seconds rather than hours.",
+            "🔍 Multi-Source Search: Simultaneously queries Google, Bing, and Reddit",
+            "🤖 AI-Powered Analysis: Uses GPT-4 for intelligent content synthesis",
+            "⚡ Fast Insights: Delivers comprehensive research insights in seconds",
+            "🎨 Interactive Interface: Professional Streamlit web application",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "AI Research Agent - Multi-Source Intelligence Platform",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/GalaxyMatrix/Advanced-AI-research-Agent-",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "AI Research Agent - Multi-Source Intelligence Platform.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/Ai Research Agent.png",
         },
         {
           id: 5,
@@ -333,43 +331,42 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Acquisitions API",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[30vh] left-7",
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Acquisitions API.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Production-Grade Node.js Express API with Complete CI/CD Pipeline, Docker Containerization, and Kubernetes Support",
+
+    
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Acquisitions API.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://github.com/GalaxyMatrix/acquisitions",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "Acquisitions API.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/Acquisitions API.png",
         },
         {
           id: 5,
