@@ -396,7 +396,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/Coran.jpg",
+      imageUrl: "/images/Coran.png",
     },
     {
       id: 2,
@@ -405,7 +405,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/Coran2.jpg",
+      imageUrl: "/images/Coran2.jpeg",
     },
     {
       id: 3,
