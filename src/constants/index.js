@@ -140,7 +140,7 @@ const socials = [
     text: "Gmail",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://mail.google.com/mail/?view=cm&to=coranchunilall7@gmail.com&su=Hello&body=Hi%20there",
+    link: "mailto:coranchunilall7@gmail.com",
   },
   {
     id: 3,
