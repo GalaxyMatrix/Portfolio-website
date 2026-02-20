@@ -230,20 +230,20 @@ const WORK_LOCATION = {
       name: "DocuMind AI - RAG Document Assistant",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[20vh] left-6", // optional: Finder window position
+      position: "top-10 left-5",
+      windowPosition: "top-[8vh] left-[5vw]",
       children: [
-{
-  id: 1,
-  name: "DocuMind AI - RAG Document Assistant Project.txt",
-  icon: "/images/txt.png",
-  kind: "file",
-  fileType: "txt",
-  position: "top-5 left-10",  
-  description: [
-    "📄 PDF Document Upload - Upload and process PDF files into searchable embeddings\n🤖 AI-Powered Q&A - Ask questions and get instant answers from your documents\n🎨 Beautiful UI - Modern gradient design with smooth animations\n☁️ Cloud Deployed - Fully hosted on Render and Streamlit Cloud\n🗑️ Database Management - Clear all documents with one click\n📚 Source Attribution - See which documents your answers came from\n⚡ Instant Responses - Direct synchronous query processing"
-  ],
-},
+        {
+          id: 1,
+          name: "DocuMind AI - RAG Document Assistant Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",  
+          description: [
+            "📄 PDF Document Upload - Upload and process PDF files into searchable embeddings\n🤖 AI-Powered Q&A - Ask questions and get instant answers from your documents\n🎨 Beautiful UI - Modern gradient design with smooth animations\n☁️ Cloud Deployed - Fully hosted on Render and Streamlit Cloud\n🗑️ Database Management - Clear all documents with one click\n📚 Source Attribution - See which documents your answers came from\n⚡ Instant Responses - Direct synchronous query processing"
+          ],
+        },
         {
           id: 2,
           name: "DocuMind AI - RAG Document Assistant",
@@ -281,7 +281,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[45vh] left-5",
+      windowPosition: "top-[10vh] left-[50vw]",
       children: [
         {
           id: 1,
@@ -335,7 +335,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[30vh] left-7",
+      windowPosition: "top-[30vh] left-[70vw]",
       children: [
         {
           id: 1,
