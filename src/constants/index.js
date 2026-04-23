@@ -97,6 +97,13 @@ const blogPosts = [
     image: "/images/AWS.png",
     link: "https://www.credly.com/badges/4d06068c-7a49-4cc1-be36-db6aec5858a4/linked_in_profile",
   },
+  {
+    id: 4,
+    date: "April 23, 2026",
+    title: "MLOPS Specialization - Duke University",
+    image: "/images/Duke University.png",
+    link: "https://www.coursera.org/account/accomplishments/specialization/1TMXHYXXGXYI",
+  }
 ];
 
 const techStack = [
