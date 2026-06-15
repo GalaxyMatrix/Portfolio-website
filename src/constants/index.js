@@ -338,7 +338,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Acquisitions API",
+      name: "Credit Risk Prediction Model",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -346,34 +346,44 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Acquisitions API.txt",
+          name: "Credit Risk Prediction Model.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Production-Grade Node.js Express API with Complete CI/CD Pipeline, Docker Containerization, and Kubernetes Support",
+            `📋 Project Description
+Credit Risk Prediction — End-to-End MLOps
+
+A production-style machine learning system that predicts loan default risk using a full ML lifecycle approach. This project demonstrates real-world ML engineering practices by combining:
+
+ML Model: Extra Trees Classifier trained on South African credit data (~1,000 loan applications) to classify applicants as good or bad credit risk with 78.4% F1-score
+Client/Server Architecture: Streamlit web UI paired with a FastAPI REST service, each independently deployed and scaled
+Experiment Tracking: MLflow integration logging all training runs, hyperparameters, and metrics
+Quality Assurance: Automated quality gates that prevent model regressions from shipping
+Production-Ready: Docker containerization, CI/CD pipelines via GitHub Actions, Prometheus monitoring, and comprehensive test coverage
+Reproducibility: Configuration-driven approach via params.yaml, DVC pipeline, and pinned dependencies`,
 
     
           ],
         },
         {
           id: 2,
-          name: "Acquisitions API.com",
+          name: "Credit Risk Prediction Model.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/GalaxyMatrix/acquisitions",
+          href: "https://matrix-credit-prediction.streamlit.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "Acquisitions API.png",
+          name: "Credit Risk Prediction Model.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/Acquisitions API.png",
+          imageUrl: "/images/Credit Risk.png",
         },
         {
           id: 5,
