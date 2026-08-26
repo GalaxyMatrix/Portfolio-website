@@ -9,7 +9,7 @@ export const Navbar = () => {
     <nav>
         <div>
             <img src="/images/logo.svg" alt="Logo"/>
-            <p className="font-bold">Coran's Portfilo</p>
+            <p className="font-bold">Coran's Portfolio</p>
             <ul>
                 {navLinks.map(({id, name, type}) => (
                     <li key={id} onClick={() => openWindow(type)}>
