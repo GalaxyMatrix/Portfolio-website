@@ -284,7 +284,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Research Agent - Multi-Source Intelligence Platform",
+      name: "Signalist - Stock Research & AI Analysis Platform ",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -292,36 +292,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Research Agent - Multi-Source Intelligence Platform.txt",
+          name: "Signalist - Stock Research & AI Analysis Platform.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "The AI Research Agent is a sophisticated multi-source intelligence platform that revolutionizes how users gather and analyze information. By leveraging cutting-edge AI technologies and parallel processing workflows, it delivers comprehensive research insights in seconds rather than hours.",
-            "🔍 Multi-Source Search: Simultaneously queries Google, Bing, and Reddit",
-            "🤖 AI-Powered Analysis: Uses GPT-4 for intelligent content synthesis",
-            "⚡ Fast Insights: Delivers comprehensive research insights in seconds",
-            "🎨 Interactive Interface: Professional Streamlit web application",
-          ],
+            `Built and deployed a full-stack stock research platform enabling users to search tickers, manage personalized watchlists, and view live market dashboards, company charts, and financial news.
+• Engineered automated price and volume alerts with minute-level checks, alongside daily personalized news emails and investment-profile-based welcome emails.
+• Developed a one-year market risk analytics pipeline calculating volatility, beta, maximum drawdown, historical VaR/CVaR, Sharpe ratio, and Sortino ratio from daily price data.
+• Built an AI-powered watchlist analyst using React, CopilotKit, and a FastAPI CrewAI service to analyze tracked stocks while enforcing guardrails against prompt injection, secret leakage, and requests for guaranteed trade outcomes.`,
+          ]
         },
         {
           id: 2,
-          name: "AI Research Agent - Multi-Source Intelligence Platform",
+          name: "Signalist - Stock Research & AI Analysis Platform",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://github.com/GalaxyMatrix/Advanced-AI-research-Agent-",
+          href: "https://signalist-zeta-kohl.vercel.app/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "AI Research Agent - Multi-Source Intelligence Platform.png",
+          name: "Signalist - Stock Research & AI Analysis Platform.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/Ai Research Agent.png",
+          imageUrl: "/images/Signalist.png",
         },
         {
           id: 5,
